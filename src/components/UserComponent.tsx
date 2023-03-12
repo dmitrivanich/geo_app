@@ -16,7 +16,7 @@ export const UserComponent = () => {
   return (
     <VStack h="100%" w="auto" overflowY="auto" overflowX="hidden"  pt="10px" direction="row" fill="red" borderRight={"3.5px solid rgba(0,0,0,0.2)"}>
       <Show breakpoint='(min-width: 600px)'>
-        <Text fontSize="3xl" fontWeight="bold" color={colorMode === "dark" ? "blackAlpha.900" : "blackAlpha.300"} >USERS</Text>
+        <Text fontSize="3xl" fontWeight="bold" color={colorMode === "dark" ? "blackAlpha.900" : "blackAlpha.400"} >USERS</Text>
       </Show>
 
       <VStack spacing={1}>

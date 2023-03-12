@@ -1,10 +1,10 @@
 import { Flex } from "@chakra-ui/react"
 import 'leaflet/dist/leaflet.css';
 import { MapContainer, GeoJSON, FeatureGroup, TileLayer } from 'react-leaflet';
-import { geoData } from "assets/data"
+import geoData from "assets/floor"
 
 export const PlanComponent = () => {
-  const position = [53.91707819154794, 27.63485423374176]  //[53.91687819154794, 27.63435423374176] - old position
+  const position = [53.91712819154794, 27.63492423374176]  //[53.91687819154794, 27.63435423374176] - old position
 
   return (
     <Flex w="100%" h="100%" >
