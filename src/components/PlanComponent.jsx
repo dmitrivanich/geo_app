@@ -12,10 +12,10 @@ export const PlanComponent = () => {
   return (
     <Flex w="100%" h="100%" >
       <MapContainer maxZoom={25} center={position} zoom={20} style={{ width: "100%", height: "100%" }}>
-        <TileLayer
+        {/* <TileLayer
+          attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
           url="https://api.maptiler.com/maps/openstreetmap/{z}/{x}/{y}.jpg?key=laR0YY8O5Cgv3pummhG5"
-        />
-
+        /> */}
         <FeatureGroup>
           <GeoJSON data={geoData.features} />
         </FeatureGroup>
