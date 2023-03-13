@@ -10,7 +10,7 @@ export const useUsersStore = create<UsersState>()(
       users: [],
       randomUsers: [],
       setRandomUsers: async () => {
-        const serverResult: {results: RandomUser[]} = await ky.get("https://randomuser.me/api/?results=5").json()
+        const serverResult: {results: RandomUser[]} = await ky.get("https://randomuser.me/api/?results=50").json()
         const randomUsers: RandomUser[] = serverResult.results
         
         console.log('====================================');
