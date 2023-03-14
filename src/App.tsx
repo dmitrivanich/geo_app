@@ -1,5 +1,5 @@
 import { VStack, HStack, Flex, useColorMode, Button, Icon, Box } from "@chakra-ui/react"
-import  UserComponent  from "components/Users"
+import { UserComponent }  from "components/UserComponent"
 import { PlanComponent } from "components/PlanComponent"
 import {SunIcon, MoonIcon} from '@chakra-ui/icons'
 
